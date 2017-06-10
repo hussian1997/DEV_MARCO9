@@ -211,65 +211,29 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-    "@ii02ii",
-    "FWD",
-    "Feedback",
-    "Serverinfo",
-    "VIRSON",
-    "addbot",
-    "addreplay",
-    "admin",
-    "all",
-    "anti_spam",
-    "ar-broadcast",
-    "ar_badword",
-    "ar_banhammer",
-    "ar_me",
-    "delete",
-    "dev",
-    "echo",
-    "get",
-    "getfile",
-    "hedev",
-    "help",
-    "image",
-    "ingroup",
-    "inpm",
-    "inrealm",
-    "invite",
-    "leave",
-    "leave_ban",
-    "lock_bot",
-    "msg_checks",
-    "name",
-    "newgroup",
-    "owners",
+    "f7",
+    "f6",
+    "f5",
     "plugins",
-    "rebot",
-    "redis",
-    "reply",
-    "send",
-    "set",
-    "stats",
-    "sticker23",
-    "supergroup",
-    "tagall",
-    "welcome",
-    "zkhrafa",
-    "zkhrafaa",
-    "lockedit",
+    "f4",
+    "f3",
+    "f2",
+    "f1",
+    "f8",
+    "f9",
+    "f10",
+    "f11",
+    "f12",
+    "f13",
+    "f14",
+    "f15",
+    "f16",
+    "f17",
     },
-    sudo_users = { 218385683,0,tonumber(our_id)},--Sudo users
+    sudo_users = { 161316496,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[DevSaqt )(
-آهہٰلآ وسہٰهلآ بہٰك صہٰديہٰقہٰيے آلےمےطےوريےن
-@ii02ii
-@ss02ss
-@mm01mm
-Channel DEV Saqt TEAM
-@Ch_Dev
-آلآصہٰدآر ألہٰثہٰآنہٰي :
-https://github.com/ii02ii/DevSaqt
+    about_text = [[DEV_MARCO)(
+
 ]],
     help_text_realm = [[
 Realm Commands:
